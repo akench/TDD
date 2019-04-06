@@ -38,6 +38,6 @@ public class URLSplitterTest {
     @Test
     public void checkPath() {
         String[] arr = urlSplitter.split("http://www.google.com/hi/bye");
-        Assert.assertEquals("hi/bye", arr[2]);
+        Assert.assertEquals("hi/bye", arr[1]);
     }
 }
