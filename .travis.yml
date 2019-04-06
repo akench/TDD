@@ -1,5 +1,4 @@
 language: java
 
 script:
-  gradle assemble
-  gradle check
+  ./gradlew assemble
